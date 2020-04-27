@@ -15,17 +15,24 @@
     </div> 
     -->
 
-    
+
     <!-- ng-app directive tells AngularJS that the <div> element is the owner of an AngularJS application-->
     <!--ng-model binds the the value of the input field to the application variable name  -->
     <!-- ng-bind binds the content of the <p> element to the applicatinon variable name-->
 
+
+    <!--
     <div data-ng-app="" data-ng-init="firstName='Graeme'">
 
         <p>The name is <span data-ng-bind="firstName"></span></p>
             
     </div> 
+    -->
 
+    <div ng-app="">
+    <p>My first expression: {{ 5 + 5}}</p>
+
+    </div>
 
     
 </body>
